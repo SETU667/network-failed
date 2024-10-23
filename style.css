@@ -1,0 +1,22 @@
+.loader {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+left: 500px;
+top: 200px;
+border: 10px solid blue;
+border-top: 10px solid red;
+/* background-color: orange; */
+animation: loading 1s ease-in 0s infinite normal ;  
+animation-direction: normal;
+
+}
+@keyframes loading {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
